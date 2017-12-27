@@ -1,23 +1,41 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <header-index ></header-index>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
+import headerIndex from './components/header/index'
 export default {
-  name: 'app'
+  name: 'app',
+  mounted () {
+
+  },
+  components: {
+    headerIndex
+  }
 }
 </script>
 
 <style>
+html{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  /*overflow: hidden;*/
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  /*background-color: red;*/
 }
 </style>
