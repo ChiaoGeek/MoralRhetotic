@@ -233,7 +233,7 @@
 
       <div class="second-right tweets-container" >
         <div class="tweets-container-title">
-          <span class="model-title"><img style="width: 15px; height: 14px; margin-right: 7px; margin-left:15px;" src="../../assets/img/tweet.gif">Most Recent Tweets</span>
+          <span class="model-title"><img style="width: 15px; height: 14px; margin-right: 7px; margin-left:15px;" src="../../assets/img/tweet.gif">Related Tweets</span>
         </div>
 
           <ul>
@@ -542,24 +542,334 @@
       </div>
     </div>
 
+    <div class="tips">
+      <h1>
+        <img src="../../assets/img/trendill.png" width="22" height="22" style="margin-right: 7px;">
+        Monitor users, lists &amp; keywords
+        <small>Keep an eye on tweets from your favorite users and lists, or from anyone using a keyword search</small>
+      </h1>
+    </div>
 
     <div class="third">
       <div class="third-left">
-
+        <img src="../../assets/img/test3.png"  alt="">
       </div>
-      <div class="third-right">
+      <div class="third-right tweets-container">
+        <div class="tweets-container-title">
+          <span class="model-title"><img style="width: 15px; height: 14px; margin-right: 7px; margin-left:15px;" src="../../assets/img/tweet.gif">Related Tweets</span>
+        </div>
 
+          <ul>
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+            <li class="tweets-container-content-li">
+              <div class="tweets-user-img">
+                  <a class="userpreview" href="#" target="_blank" style="color: #333333;"><img src="http://pbs.twimg.com/profile_images/625724307432300544/WmqQSCYE_normal.jpg" class="avatarMini"></a>
+              </div>
+              <div class="tweets-user-content">
+                <div class="tweets-user-content-up">
+                  <span class="user-name"><a href="#">Bill Bateman</a></span>
+                  <span class="account-name"><a href="#">@BillBateman</a></span>
+                  <span class="tweets-time">4:49 PM - 10 Dec 2017</span>
+                </div>
+                <div class="tweets-user-content-down">
+                  Serious about using Twitter for marketing your business? You have to see what Cindy Donovan has developed
+                  <a href="#" skip_urls="">#twittermarketing</a>
+                  <a href="#" target="_blank">jvz5.com/c/10008/263555</a>
+                </div>
+              </div>
+            </li>
+          </ul>
       </div>
-      <div class="third-middile">
+      <div class="third-middile" id="comparisionbar">
 
       </div>
     </div>
 
 
 
-    <!-- <div class="index-footer">
+    <div class="index-footer">
       Copy © 2017  Computational Social Science Lab (CSSL)
-    </div> -->
+    </div>
 
 
   </div>
@@ -578,6 +888,7 @@ import donut from '../../jsscript/donut'
 import compareStock from '../../jsscript/compareStock'
 import rgbatorgb from '../../jsscript/rgbatorgb'
 import dateSelection from '../../jsscript/dateSelection'
+import comparisionbar from '../../jsscript/comparisionbar'
 
 //
 export default {
@@ -621,6 +932,9 @@ export default {
      var data = [10, 8, 3, 4, 9]
      var name = ['Care', 'Fairness', 'Loyalty', 'Authority', 'Sanctity']
      donut('#secondmiddle', d3, data, name, 400, 400, d3WordCloud)
+
+     //comparisionbar
+     comparisionbar('#comparisionbar', d3)
   }
 }
 </script>
@@ -629,7 +943,7 @@ export default {
   .twtter-content {
     /* width: 83.5%; */
     width: 1190px;
-    height: 2600px;
+    height: auto;
     margin: auto;
     background-color: #eef0f1;
     background-color: #ffffff;
@@ -948,9 +1262,39 @@ export default {
     margin-top: 25px;
   }
   .third-left {
-
+    width: 26%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+    float: left;
   }
-
+  .third-left img {
+    width: 100%;
+  }
+  .third-right {
+    width: 40%;
+    height: 100%;
+    float: right;
+    border: 1px solid #d1d5da;
+    border-top: 0px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .third-middile {
+    width: 30%;
+    height: 100%;
+    margin-left: 28%;
+  }
+  .index-footer {
+    background-color: #2f3539;
+    border-top: 1px solid #393f43;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 16px;
+    color: #cecece;
+    text-align: center;
+    margin-top: 80px;
+  }
 
 
 </style>
