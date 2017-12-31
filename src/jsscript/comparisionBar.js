@@ -1,18 +1,27 @@
 var comparisionbar = function (id, d3) {
 
-  var width = 350
+  var width = 370
   var height = 400
-  var bar_height = 30
-  var bar_margin = 10
+  var bar_height = 18
+  var bar_margin = 50
 
-
+  var color = function (i) {
+    var colorArray = [
+      "rgb(96,	162,	248	)",
+      "rgb(144,	138,	235	)",
+      "rgb(247,	205,	85	)",
+      "rgb(237,	130,	142	)",
+      "rgb(149,	211,	143	)"
+    ]
+    return colorArray[i]
+  }
 
   var data = [
-    {"name": "Care", "value": 20 },
-    {"name": "Fairness", "value": 18},
-    {"name": "Loyalty", "value": 10},
-    {"name": "Authority", "value": 7},
-    {"name": "Sanctity", "value": 5},
+    {"name": "Care", "value": 0.8 },
+    {"name": "Fairness", "value": 0.7},
+    {"name": "Loyalty", "value": 0.6},
+    {"name": "Authority", "value": 0.3},
+    {"name": "Sanctity", "value": 0.2},
   ]
 
   var value = []
@@ -23,7 +32,7 @@ var comparisionbar = function (id, d3) {
   }
 
   var linear = d3.scaleLinear()
-    .domain([0, d3.max(value)])
+    .domain([0, 1])
     .range([0, width])
 
 
@@ -31,6 +40,10 @@ var comparisionbar = function (id, d3) {
     .attr("width", width)
     .attr("height", height)
     .attr("class", "bar-svg")
+    .attr("style", "margin-left:55px;")
+
+  var svg_rect_background = svg_bar.append('g')
+    .attr("class", "svg-g-rect-background")
 
   var svg_rect = svg_bar.append('g')
     .attr("class", "svg-g-rect")
@@ -41,21 +54,55 @@ var comparisionbar = function (id, d3) {
   var svg_number = svg_bar.append('g')
     .attr("class", "svg-g-number")
 
+  var svg_circle = svg_bar.append('g')
+    .attr("class", "svg-g-circle")
+
+
+  // rect background
+  svg_rect_background.selectAll("rect")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("class", "rect-class-background")
+    .attr("height", bar_height)
+    .attr("width", function (d, i) {
+        return linear(1)
+    })
+    .attr('fill', "rgb(228,241,253)")
+    .attr('y', function (d, i) {
+        return  (i + 1) * (bar_height + bar_margin)
+    })
+    .attr('x', 0)
+    .attr("style", "cursor: pointer")
+    .attr("rx", bar_height/2)
+    .attr("ry", bar_height/2)
+
+  // rect
   svg_rect.selectAll("rect")
     .data(data)
     .enter()
     .append("rect")
+    .transition()
+    .duration(500)
     .attr("class", "rect-class")
     .attr("height", bar_height)
     .attr("width", function (d, i) {
         return linear(d.value)
     })
-    .attr('fill', '#57d2f7')
+    .attr('fill', function (d, i) {
+        return color(i)
+    })
     .attr('y', function (d, i) {
-        return  i * (bar_height + bar_margin)
+        return  (i + 1) * (bar_height + bar_margin)
     })
     .attr('x', 0)
-    .attr("style", "cursor: pointer")
+    .attr("style", "cursor: pointer;")
+    .attr("rx", bar_height/2)
+    .attr("ry", bar_height/2)
+
+
+
+
 
   d3.selectAll('.rect-class')
     .on('mouseover', function (d, i) {
@@ -81,10 +128,10 @@ var comparisionbar = function (id, d3) {
       return 0
     })
     .attr('dx', function () {
-      return 8
+      return 25
     })
     .attr('dy', function (d, i) {
-      return i * (bar_height + bar_margin) + 18
+      return i * (bar_height + bar_margin) + 58
     })
     .attr('fill', '#393939')
     .text(function (d) {
@@ -109,11 +156,26 @@ var comparisionbar = function (id, d3) {
         return (width - 28)
       })
       .attr('dy', function (d, i) {
-        return i * (bar_height + bar_margin) + 18
+        return i * (bar_height + bar_margin) + 58
       })
       .attr('fill', '#393939')
       .text(function (d) {
         return d.value
+      })
+
+    svg_circle.selectAll("circle")
+      .data(data)
+      .enter()
+      .append("circle")
+      .attr("r", "5")
+      .attr("cx", "14")
+      .attr("fill", "white")
+      .attr("stroke", function (d, i) {
+          return color(i)
+      })
+      .attr("stroke-width", "3")
+      .attr("cy", function (d, i) {
+        return i * (bar_height + bar_margin) + 54
       })
 
 

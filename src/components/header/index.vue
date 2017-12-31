@@ -4,7 +4,9 @@
       <div class="header-left">
         <span class="logo-span"></span><img class="logo-span-img" src="../../assets/img/logo.png" alt="" >
         <span class="header-name">
-          <a class="header-name-a" href="#">Moral Rhetoric</a>
+          <router-link to="/pdv/moralrhetoric" class="index-href header-name-a">
+          Moral Rhetoric
+          </router-link>
         </span>
       </div>
       <div class="header-right">
@@ -41,15 +43,22 @@ export default {
 <style lang="css" scoped>
   .header-banner {
     width: 100%;
-    height: 43px;
-    background-color: rgb(44, 44, 44);
+    height: 65px;
+    /* background-color: rgb(44, 44, 44); */
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    top: 0px;
+    z-index: 999;
   }
   .header-container {
     /* width: 83.5%; */
-    width: 1190px;
+    width: 1250px;
     height: 100%;
     margin: auto;
-    /* background-color: rgba(220, 33, 20, 0.2) */
+    /* display: none; */
+    /* background-color: rgba(220, 33, 20, 0.2); */
+    /* box-shadow: 2px 2px  #ddd; */
   }
   .header-left {
     width: 20%;
@@ -69,7 +78,7 @@ export default {
     height: 30px;
   }
   .header-name-a {
-    color: #fff;
+    color: rgb(43, 44, 45);
     font-size: 20px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -93,8 +102,8 @@ export default {
   	-webkit-border-radius:15px;
     border:1px solid #2a2e31;
     font-size: 12px;
-	  color: white;
-    margin-top: 7px;
+	  color: #333;
+    margin-top: 20px;
     /* word-spacing: 5px; */
     letter-spacing: 1px;
   }
@@ -102,15 +111,15 @@ export default {
     outline: none;
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #e3e5e8;
+    color: rgba(43,44,45, 0.7)
   }
   ::-moz-placeholder { /* Firefox 19+ */
-    color: #e3e5e8;
+    color: rgba(43,44,45, 0.7);
   }
   :-ms-input-placeholder { /* IE 10+ */
-    color: #e3e5e8;
+    color: rgba(43,44,45, 0.7);
   }
   :-moz-placeholder { /* Firefox 18- */
-    color: #e3e5e8;
+    color: rgba(43,44,45, 0.7);
 }
 </style>

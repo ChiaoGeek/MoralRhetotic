@@ -10,12 +10,17 @@ export default new Router({
   scrollBehavior: () => ({ y: 0 }),
   routes: [
     {
-      path: '/',
-      name: 'Index',
+      path: '/pdv/moralrhetoric',
+      name: 'index',
       component: Index
     },
+    // {
+    //   path: '/',
+    //   name: 'index',
+    //   component: Index
+    // },
     {
-      path: '/deeply',
+      path: '/pdv/moralrhetoric/deeply',
       name: 'deeplyIndex',
       component: deeplyIndex
     }

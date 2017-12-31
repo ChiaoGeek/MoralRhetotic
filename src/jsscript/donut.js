@@ -1,19 +1,28 @@
 var donut = function (id, d3, data, name, width, height, d3WordCloud) {
 
-  var color = d3.scaleOrdinal(d3.schemeCategory10)
+  var color = function (i) {
+    var colorArray = [
+      "rgb(96,	162,	248	)",
+      "rgb(144,	138,	235	)",
+      "rgb(247,	205,	85	)",
+      "rgb(237,	130,	142	)",
+      "rgb(149,	211,	143	)"
+    ]
+    return colorArray[i]
+  }
 
   var svgContainer = d3.select(id)
        .append("svg")
          .attr("width", width)
          .attr("height", height)
-         // .style("border", "1px solid")
+         .style("margin-left", "60px")
 
   function render () {
     d3.select(id).select('g').remove()
 
     var arc = d3.arc()
-      .outerRadius(200)
-      .innerRadius(150)
+      .outerRadius(210)
+      .innerRadius(160)
 
     var group = svgContainer.append('g')
       .attr("transform", "translate(" + width/2 +", " + height/2 + ")")
@@ -85,54 +94,22 @@ var donut = function (id, d3, data, name, width, height, d3WordCloud) {
   function  wordcloud () {
     var g = svgContainer.append("g")
         // .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-      var data = [
-        {"name": "apple1", "value": 3},
-        {"name": "apple2", "value": 4},
-        {"name": "apple3", "value": 4},
-        {"name": "apple4", "value": 4},
-        {"name": "apple5", "value": 4},
-        {"name": "apple6", "value": 4},
-        {"name": "apple7", "value": 4},
-        {"name": "apple8", "value": 4},
-        {"name": "apple9", "value": 4},
-        {"name": "apple10", "value": 4},
-        {"name": "apple11", "value": 5},
-        {"name": "apple12", "value": 7},
-        {"name": "apple13", "value": 9},
-        {"name": "apple14", "value": 10},
-        {"name": "apple15", "value": 4},
-        {"name": "apple16", "value": 4},
-        {"name": "apple17", "value": 4},
-        {"name": "apple18", "value": 4},
-        {"name": "apple19", "value": 4},
-        {"name": "apple20", "value": 4},
-        {"name": "apple21", "value": 4},
-        {"name": "apple22", "value": 4},
-        {"name": "apple23", "value": 4},
-        {"name": "apple24", "value": 4},
-        {"name": "apple25", "value": 4},
-        {"name": "apple26", "value": 4},
-        {"name": "apple27", "value": 4},
-        {"name": "apple28", "value": 4},
-        {"name": "apple29", "value": 4},
-        {"name": "apple30", "value": 4},
-        {"name": "apple31", "value": 4},
-        {"name": "apple32", "value": 4},
-        {"name": "apple33", "value": 4},
-        {"name": "apple34", "value": 4}
-      ]
+      var data = []
 
+      for (var i = 0; i < 150; i++) {
+          data.push({"name": "keyword"+i+"", "value": Math.ceil( 10 * Math.random())})
+        }
         var valueArray = []
         for (var i = 0; i < data.length; i++) {
            valueArray.push(data[i].value)
         }
         // var color = d3.scaleOrdinal(d3.schemeCategory20);
         // var categories = d3.keys(d3.nest().key(function(d) { return d.State; }).map(data));
-        var fontSize = d3.scalePow().exponent(5).domain([0,d3.max(valueArray)]).range([12,20]);
+        var fontSize = d3.scalePow().exponent(5).domain([0,d3.max(valueArray)]).range([12,14]);
 
 
       var layout = d3WordCloud()
-            .size([300, 350])
+            .size([280, 250])
             .timeInterval(20)
             .words(data)
             .rotate(function(d) { return 0; })
